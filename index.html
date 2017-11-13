@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hangman: Sports Edition</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <h1>HANGMAN</h1>
+      <h2 class="sports-edition">SPORTS CITIES EDITION</h2>
+      <p class="instructions">Press any key to begin!</p>
+    </div>
+
+    <div class="panel panel-default text-center">
+      <div class="panel-body">
+        <h2 id="wordToGuess">_ _ _ _ _</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="panel panel-default col-md-6">
+        <div class="panel-body">
+          Wrong Guesses: <span id="wrongGuesses"></span>
+        </div>
+      </div>
+
+      <div class="panel panel-default col-md-6">
+        <div class="panel-body">
+          Guesses Left: <span id="numGuesses"></span>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="panel panel-default col-md-12">
+        <div class="panel-body">
+          Wins: <span id="winCounter">0</span> |
+          Losses: <span id="lossCounter">0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- link to javascript -->
+<script src="assets/js/game.js"></script>
+
+</body>
+</html>

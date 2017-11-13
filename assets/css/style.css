@@ -1,0 +1,31 @@
+body {
+  font-family: 'Graduate', cursive;
+  background: url("../img/background.jpg") center bottom no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.jumbotron.text-center {
+  background: none;
+}
+
+h1, h2 {
+  font-family: 'Graduate', cursive;
+  font-weight: bold;
+}
+
+.sports-edition {
+  margin-top: -10px;
+  font-size: 1.75em;
+}
+
+.instructions {
+  margin-top: 60px;
+}
+
+.panel, .panel-default, .panel-body {
+  border: none;
+  border-color: none;
+  background: none;
+  font-weight: bold;
+}
